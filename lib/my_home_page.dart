@@ -16,28 +16,49 @@ class _MyHomePageState extends State<MyHomePage> {
         backgroundColor: Theme.of(context).colorScheme.inversePrimary,
         title: Text(widget.title),
       ),
-      body: Row(
-        mainAxisAlignment: MainAxisAlignment.spaceBetween,
-        crossAxisAlignment: CrossAxisAlignment.center,
+
+      body: Column(
+        mainAxisAlignment: MainAxisAlignment.center,
+        crossAxisAlignment: CrossAxisAlignment.stretch,
         children: [
           Container(
             color: Colors.blueGrey,
-            width: 100,
-            height: 580,
+            width: 200,
+            height: 100,
           ),
           Container(
             color: Colors.cyanAccent,
-            width: 100,
-            height: 480,
+            width: 70,
+            height: 100,
           ),
           Container(
             color: Colors.redAccent,
-            width: 100,
-            height: 480,
+            width: 50,
+            height: 100,
           ),
         ],
       ),
-
+      // body: Row(
+      //   mainAxisAlignment: MainAxisAlignment.spaceBetween,
+      //   crossAxisAlignment: CrossAxisAlignment.center,
+      //   children: [
+      //     Container(
+      //       color: Colors.blueGrey,
+      //       width: 100,
+      //       height: 580,
+      //     ),
+      //     Container(
+      //       color: Colors.cyanAccent,
+      //       width: 100,
+      //       height: 480,
+      //     ),
+      //     Container(
+      //       color: Colors.redAccent,
+      //       width: 100,
+      //       height: 480,
+      //     ),
+      //   ],
+      // ),
       // body: Center(
       //   child: Align(
       //     alignment: Alignment.topCenter,
